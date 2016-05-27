@@ -18,13 +18,6 @@ public class Main {
 	 */
 	public static void main(String[] args) throws Exception {
 
-//        args = new String[]{
-//                "pingqc",
-//                "a764640F1yw6F5Oy9dpIP3hxcx_WpTe4H3piYRU-",
-//                "L-iimF8SuI3Tc_RF6EpwMWb0uMhQy4TsXvr1bT_D",
-//                "http://7nj3c7.com1.z0.glb.clouddn.com"
-//        };
-
 		//System.out.println(Arrays.toString(args));
 		Auth auth = Auth.create(args[1], args[2]);
 
